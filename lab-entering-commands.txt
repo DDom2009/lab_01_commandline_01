@@ -18,8 +18,9 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 
-
-
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures	isus
+V217-M13:~ 
 ==========
 2a. Type: 
 
@@ -27,21 +28,17 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
-
-
+nothing happens
 ==========
-2b. Press <TAB> one more time.  Copy and paste the output below.
+2b. Press <TAB> one more time.  Copy and paste the output below.  
 ----------
-
-
+Desktop/   Documents/ Downloads/ 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
 
-
-
+ls: D: No such file or directory
 ==========
 3.  Type:
 
@@ -49,8 +46,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-
+total 0
+-rw-r--r--  1 david.dominguez09  ACADEMIC\Domain Users  0 Feb  5 10:56 iChats
 
 ==========
 4.  Type:
@@ -60,7 +57,7 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+.		..		.localized	iChats
 
 ==========
 5.  Type:
@@ -70,7 +67,7 @@ Copy and paste the first *two lines* of output below.
 What command was repeated?
 ----------
 
-
+ls -a documents
 
 ==========
 6.  Type:
@@ -79,7 +76,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls a-documents
 
 
 ==========
@@ -89,8 +86,7 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
-
+-bash: ls/Vol: No such file or directory
 
 ==========
 8.  Type:
@@ -99,8 +95,7 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
-
+ls: doesnotexist: No such file or directory
 
 ==========
 9.  What key do I press to go to the previous command?
