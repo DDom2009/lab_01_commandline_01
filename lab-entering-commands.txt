@@ -101,31 +101,31 @@ ls: doesnotexist: No such file or directory
 9.  What key do I press to go to the previous command?
 ----------
 
-
+-
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
-
+documents and doesnotexist
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+tab
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+ls
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
-
+ls documents
 
 ==========
 14.  Type:
@@ -135,9 +135,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
-
-==========
+-bash: foo: command not found==========
 15.  Type:
 
 <UP><ENTER>
@@ -145,8 +143,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
-
+-bash: foo: command not found
 ==========
 16.  In the following line....
 
